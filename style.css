@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Luxurious+Roman&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Winky Sans", sans-serif;
+    list-style: none;
+}
+body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(154, 218, 218);
+}
+.container{
+    background-color: rgb(230, 234, 237);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px;
+    box-shadow: 10px 10px 20px  rgb(167, 162, 162);
+    width: 90%;
+    max-width: 450px;
+    margin: 0 auto;
+    margin-top: 150px;
+    
+}
+.form-group{
+    margin-bottom: 15px;
+    text-align: left;
+
+}
+label{
+    font-size: 20px;
+    color:rgb(16, 16, 165);
+    margin-bottom: 5px;
+    display: block;
+}
+input{
+    width: 95%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color:rgb(200, 222, 221);
+    box-shadow:inset 5px 5px 10px rgb(178, 176, 176);
+    border: none;
+    outline: none;
+
+}
+::placeholder{
+    font-size: 20px;
+    font-style: italic;
+} 
+#submitbtn{
+margin-left: 10px;
+padding: 8px 12px;
+border: none;
+font-size: 20px;
+border-radius: 10px;
+background-color: green;
+box-shadow:5px 5px 10px rgb(143, 113, 172)
+
+}
+.password-container{
+    position: relative;
+
+}
+.toggle-password{
+    position: absolute;
+    right:25px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: aqua;
+}
+ul.criteria{
+    padding: 10px;
+    background-color: aliceblue;
+    border: 1px solid#fff;
+    border-radius: 5px;
+    font-size:14px ;
+    color: #666;
+    box-shadow: 0,5px,10px, rgba(0,0,0,0.05);
+    margin-top: 20px;
+}
+ul.criteria li{
+    margin: 8px 0;
+}
+ul.criteria li.valid{
+color: green;
+}
+ul.criteria li.invalid{
+    color: red;
+}
+
+  
+

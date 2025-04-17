@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="form-group">
+            <form action="">
+               <label for="password">Password</label>
+                <div class="password-container">
+                    <input type="password" placeholder="create a password" name="" id="password">
+                    <button type="button" id="togglepassword" class="toggle-password">👁️</button>
+                    <span class="error" id="passworderror"></span>
+                </div>
+                <ul class="criteria" id="criteriaList">
+                    <li id="letter" class="invalid">At least one or more small letter</li>
+                    <li id="capital" class="invalid">At least one capital letter</li>
+                    <li id="number" class="invalid">At least one number</li>
+                    <li id="symbol" class="invalid">At least one special symbol</li>
+                    <li id="length" class="invalid">Minimum 8 characters</li>
+                </ul>
+            </form>
+        </div>
+        <div class="form-group">
+            <label for="confirmpassowrd">Confirm password</label>
+            <div class="password-container">
+                <input type="password" placeholder="confirm ur password" name="" id="confirmpassowrd">
+                <button type="button" id="togglepasswordconfirm" class="toggle-password">👁️</button>
+                <span class="error" id="confirmError"></span>
+            </div>
+        </div>
+        <button type="button" id="submitbtn">Submit</button>
+    </div>
+</form>
+</body>
+</html>
